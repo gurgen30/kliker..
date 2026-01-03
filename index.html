@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Dragon Clicker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Верхняя панель -->
+<div class="top-bar">
+  🐉 Уровень дракона: <span id="dragonLevel">1</span> |
+  💰 Золото: <span id="gold">0</span>
+</div>
+
+<div class="game">
+
+  <!-- Левая панель -->
+  <div class="heroes">
+    <h3>🧙 Герои</h3>
+    <div id="heroes"></div>
+
+    <h3>⚒ Улучшения</h3>
+    <div id="upgrades"></div>
+  </div>
+
+  <!-- Правая часть -->
+  <div class="enemy-area">
+
+    <!-- Дракон -->
+    <div id="enemy" class="enemy">🐉</div>
+
+    <!-- HP -->
+    <div class="hp-bar">
+      <div id="hpFill" class="hp-fill"></div>
+    </div>
+
+    <div class="hp-text">
+      <span id="hp">100</span> /
+      <span id="maxHp">100</span>
+    </div>
+
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
